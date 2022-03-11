@@ -9,7 +9,7 @@
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/swiper-bundle.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Imaad Uddin</title>
@@ -537,29 +537,31 @@
             <span class="section__subtitle">My Peers Say</span>
             <h2 class="section__title">Testimonial</h2>
 
-            <div class="testimonial__container container">
-                <div>
-                    <div class="testimonial__card">
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
                         <img src="/img/profile.png" alt="" class="testimonial__img">
 
                         <h3 class="testimonial__name">Name 1</h3>
                         <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eveniet iusto voluptatum cupiditate voluptate eum!</p>
                     </div>
 
-                    <div class="testimonial__card">
+                    <div class="testimonial__card swiper-slide">
                         <img src="/img/profile.png" alt="" class="testimonial__img">
 
-                        <h3 class="testimonial__name">Name 1</h3>
+                        <h3 class="testimonial__name">Name 2</h3>
                         <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eveniet iusto voluptatum cupiditate voluptate eum!</p>
                     </div>
 
-                    <div class="testimonial__card">
+                    <div class="testimonial__card swiper-slide">
                         <img src="/img/profile2.png" alt="" class="testimonial__img">
 
-                        <h3 class="testimonial__name">Name 1</h3>
+                        <h3 class="testimonial__name">Name 3</h3>
                         <p class="testimonial__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum eveniet iusto voluptatum cupiditate voluptate eum!</p>
                     </div>
                 </div>
+
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -578,7 +580,7 @@
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
     <script src="mixitup.js"></script>
