@@ -62,26 +62,44 @@ section {
 .sec1 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: white;
 }
 
 .sec2 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: blue;
 }
 
 .sec3 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: green;
 }
 
 .sec4 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: orange;
 }
 
 .sec5 {
     display: none;
     transform: translateY(0) scale(1);
+    background-color: red;
+}
+
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0% {
+            transform: translateY(-100%) scale(0)
+        }
+        100% {
+            transform: translateY(0) scale(1)
+        }
+    }
 }
 
 // Controls 
